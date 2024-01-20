@@ -19,8 +19,15 @@ struct SwiftUIView: View {
         NavigationView{
             ZStack {
            
-                Color(red: 0.4627, green: 0.8392, blue: 1.0)
+                Color.black
                     .ignoresSafeArea()
+                
+            }
+            VStack {
+                Color.red
+                Text("login")
+                    .font(.largeTitle)
+                
             }
         }
         .navigationBarHidden(true)
