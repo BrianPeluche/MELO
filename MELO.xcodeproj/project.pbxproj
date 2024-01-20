@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5408BBE52B5C7F4500E0880D /* MELOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BBE42B5C7F4500E0880D /* MELOApp.swift */; };
+		5408BBE72B5C7F4500E0880D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BBE62B5C7F4500E0880D /* ContentView.swift */; };
+		5408BBE92B5C7F4500E0880D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BBE82B5C7F4500E0880D /* Item.swift */; };
+		5408BBEB2B5C7F4700E0880D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5408BBEA2B5C7F4700E0880D /* Assets.xcassets */; };
+		5408BBEF2B5C7F4700E0880D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5408BBEE2B5C7F4700E0880D /* Preview Assets.xcassets */; };
+		5408BBF92B5C7F4700E0880D /* MELOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BBF82B5C7F4700E0880D /* MELOTests.swift */; };
+		5408BC032B5C7F4700E0880D /* MELOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BC022B5C7F4700E0880D /* MELOUITests.swift */; };
+		5408BC052B5C7F4700E0880D /* MELOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408BC042B5C7F4700E0880D /* MELOUITestsLaunchTests.swift */; };
+		54A43FF12B5C859400F8ECB4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A43FF02B5C859400F8ECB4 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5408BBF52B5C7F4700E0880D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5408BBD92B5C7F4500E0880D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5408BBE02B5C7F4500E0880D;
+			remoteInfo = MELO;
+		};
+		5408BBFF2B5C7F4700E0880D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5408BBD92B5C7F4500E0880D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5408BBE02B5C7F4500E0880D;
+			remoteInfo = MELO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5408BBE12B5C7F4500E0880D /* MELO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MELO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5408BBE42B5C7F4500E0880D /* MELOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELOApp.swift; sourceTree = "<group>"; };
+		5408BBE62B5C7F4500E0880D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5408BBE82B5C7F4500E0880D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5408BBEA2B5C7F4700E0880D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5408BBEC2B5C7F4700E0880D /* MELO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MELO.entitlements; sourceTree = "<group>"; };
+		5408BBEE2B5C7F4700E0880D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5408BBF42B5C7F4700E0880D /* MELOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MELOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5408BBF82B5C7F4700E0880D /* MELOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELOTests.swift; sourceTree = "<group>"; };
+		5408BBFE2B5C7F4700E0880D /* MELOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MELOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5408BC022B5C7F4700E0880D /* MELOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELOUITests.swift; sourceTree = "<group>"; };
+		5408BC042B5C7F4700E0880D /* MELOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54A43FF02B5C859400F8ECB4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5408BBDE2B5C7F4500E0880D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBF12B5C7F4700E0880D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBFB2B5C7F4700E0880D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5408BBD82B5C7F4500E0880D = {
+			isa = PBXGroup;
+			children = (
+				5408BBE32B5C7F4500E0880D /* MELO */,
+				5408BBF72B5C7F4700E0880D /* MELOTests */,
+				5408BC012B5C7F4700E0880D /* MELOUITests */,
+				5408BBE22B5C7F4500E0880D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5408BBE22B5C7F4500E0880D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5408BBE12B5C7F4500E0880D /* MELO.app */,
+				5408BBF42B5C7F4700E0880D /* MELOTests.xctest */,
+				5408BBFE2B5C7F4700E0880D /* MELOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5408BBE32B5C7F4500E0880D /* MELO */ = {
+			isa = PBXGroup;
+			children = (
+				54A43FEF2B5C855E00F8ECB4 /* Resources */,
+				54A43FEE2B5C855200F8ECB4 /* Managers  */,
+				54A43FED2B5C853800F8ECB4 /* ViewModels */,
+				54A43FEC2B5C852900F8ECB4 /* Models */,
+				54A43FEA2B5C850300F8ECB4 /* View */,
+				54A43FE92B5C84E800F8ECB4 /* Controllers */,
+				5408BBE42B5C7F4500E0880D /* MELOApp.swift */,
+				5408BBE62B5C7F4500E0880D /* ContentView.swift */,
+				5408BBE82B5C7F4500E0880D /* Item.swift */,
+				5408BBEC2B5C7F4700E0880D /* MELO.entitlements */,
+				5408BBED2B5C7F4700E0880D /* Preview Content */,
+				54A43FF02B5C859400F8ECB4 /* SwiftUIView.swift */,
+			);
+			path = MELO;
+			sourceTree = "<group>";
+		};
+		5408BBED2B5C7F4700E0880D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5408BBEE2B5C7F4700E0880D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5408BBF72B5C7F4700E0880D /* MELOTests */ = {
+			isa = PBXGroup;
+			children = (
+				5408BBF82B5C7F4700E0880D /* MELOTests.swift */,
+			);
+			path = MELOTests;
+			sourceTree = "<group>";
+		};
+		5408BC012B5C7F4700E0880D /* MELOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5408BC022B5C7F4700E0880D /* MELOUITests.swift */,
+				5408BC042B5C7F4700E0880D /* MELOUITestsLaunchTests.swift */,
+			);
+			path = MELOUITests;
+			sourceTree = "<group>";
+		};
+		54A43FE92B5C84E800F8ECB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		54A43FEA2B5C850300F8ECB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A43FEC2B5C852900F8ECB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54A43FED2B5C853800F8ECB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		54A43FEE2B5C855200F8ECB4 /* Managers  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Managers ";
+			sourceTree = "<group>";
+		};
+		54A43FEF2B5C855E00F8ECB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5408BBEA2B5C7F4700E0880D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5408BBE02B5C7F4500E0880D /* MELO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5408BC082B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELO" */;
+			buildPhases = (
+				5408BBDD2B5C7F4500E0880D /* Sources */,
+				5408BBDE2B5C7F4500E0880D /* Frameworks */,
+				5408BBDF2B5C7F4500E0880D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MELO;
+			productName = MELO;
+			productReference = 5408BBE12B5C7F4500E0880D /* MELO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5408BBF32B5C7F4700E0880D /* MELOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5408BC0B2B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELOTests" */;
+			buildPhases = (
+				5408BBF02B5C7F4700E0880D /* Sources */,
+				5408BBF12B5C7F4700E0880D /* Frameworks */,
+				5408BBF22B5C7F4700E0880D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5408BBF62B5C7F4700E0880D /* PBXTargetDependency */,
+			);
+			name = MELOTests;
+			productName = MELOTests;
+			productReference = 5408BBF42B5C7F4700E0880D /* MELOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5408BBFD2B5C7F4700E0880D /* MELOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5408BC0E2B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELOUITests" */;
+			buildPhases = (
+				5408BBFA2B5C7F4700E0880D /* Sources */,
+				5408BBFB2B5C7F4700E0880D /* Frameworks */,
+				5408BBFC2B5C7F4700E0880D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5408BC002B5C7F4700E0880D /* PBXTargetDependency */,
+			);
+			name = MELOUITests;
+			productName = MELOUITests;
+			productReference = 5408BBFE2B5C7F4700E0880D /* MELOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5408BBD92B5C7F4500E0880D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5408BBE02B5C7F4500E0880D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5408BBF32B5C7F4700E0880D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5408BBE02B5C7F4500E0880D;
+					};
+					5408BBFD2B5C7F4700E0880D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5408BBE02B5C7F4500E0880D;
+					};
+				};
+			};
+			buildConfigurationList = 5408BBDC2B5C7F4500E0880D /* Build configuration list for PBXProject "MELO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5408BBD82B5C7F4500E0880D;
+			productRefGroup = 5408BBE22B5C7F4500E0880D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5408BBE02B5C7F4500E0880D /* MELO */,
+				5408BBF32B5C7F4700E0880D /* MELOTests */,
+				5408BBFD2B5C7F4700E0880D /* MELOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5408BBDF2B5C7F4500E0880D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5408BBEF2B5C7F4700E0880D /* Preview Assets.xcassets in Resources */,
+				5408BBEB2B5C7F4700E0880D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBF22B5C7F4700E0880D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBFC2B5C7F4700E0880D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5408BBDD2B5C7F4500E0880D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5408BBE72B5C7F4500E0880D /* ContentView.swift in Sources */,
+				5408BBE92B5C7F4500E0880D /* Item.swift in Sources */,
+				54A43FF12B5C859400F8ECB4 /* SwiftUIView.swift in Sources */,
+				5408BBE52B5C7F4500E0880D /* MELOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBF02B5C7F4700E0880D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5408BBF92B5C7F4700E0880D /* MELOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5408BBFA2B5C7F4700E0880D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5408BC032B5C7F4700E0880D /* MELOUITests.swift in Sources */,
+				5408BC052B5C7F4700E0880D /* MELOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5408BBF62B5C7F4700E0880D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5408BBE02B5C7F4500E0880D /* MELO */;
+			targetProxy = 5408BBF52B5C7F4700E0880D /* PBXContainerItemProxy */;
+		};
+		5408BC002B5C7F4700E0880D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5408BBE02B5C7F4500E0880D /* MELO */;
+			targetProxy = 5408BBFF2B5C7F4700E0880D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5408BC062B5C7F4700E0880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5408BC072B5C7F4700E0880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5408BC092B5C7F4700E0880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MELO/MELO.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MELO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MELO",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5408BC0A2B5C7F4700E0880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MELO/MELO.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MELO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MELO",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5408BC0C2B5C7F4700E0880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MELO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MELO";
+			};
+			name = Debug;
+		};
+		5408BC0D2B5C7F4700E0880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MELO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MELO";
+			};
+			name = Release;
+		};
+		5408BC0F2B5C7F4700E0880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MELO;
+			};
+			name = Debug;
+		};
+		5408BC102B5C7F4700E0880D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = The.MELOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MELO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5408BBDC2B5C7F4500E0880D /* Build configuration list for PBXProject "MELO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5408BC062B5C7F4700E0880D /* Debug */,
+				5408BC072B5C7F4700E0880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5408BC082B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5408BC092B5C7F4700E0880D /* Debug */,
+				5408BC0A2B5C7F4700E0880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5408BC0B2B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5408BC0C2B5C7F4700E0880D /* Debug */,
+				5408BC0D2B5C7F4700E0880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5408BC0E2B5C7F4700E0880D /* Build configuration list for PBXNativeTarget "MELOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5408BC0F2B5C7F4700E0880D /* Debug */,
+				5408BC102B5C7F4700E0880D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5408BBD92B5C7F4500E0880D /* Project object */;
+}
